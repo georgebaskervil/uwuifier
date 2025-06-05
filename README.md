@@ -10,7 +10,7 @@ It first processes images by first cropping them to a square focusing on a face 
 - **Anime Image Generation:** Applies an anime style transformation with Stable Diffusion and ControlNet.
 - **Upscaling:** Enhances the generated anime image using an ONNX model.
 
-## Requirements
+## Requirements (I think)
 
 - Python 3.10+  
 - [Pillow](https://python-pillow.org/)
@@ -23,11 +23,3 @@ It first processes images by first cropping them to a square focusing on a face 
 - [controlnet_aux](path/to/file)
 
 Additional dependencies may be required. Make sure to check each module's documentation for installation instructions.
-
-## Installation
-
-1. Clone the repository.
-2. Create and activate a virtual environment.
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
